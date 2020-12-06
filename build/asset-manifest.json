@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-deploy.git/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/react-deploy.git/static/js/main.68156ff6.chunk.js",
+    "main.js.map": "/react-deploy.git/static/js/main.68156ff6.chunk.js.map",
+    "runtime-main.js": "/react-deploy.git/static/js/runtime-main.aba111dd.js",
+    "runtime-main.js.map": "/react-deploy.git/static/js/runtime-main.aba111dd.js.map",
+    "static/js/2.f70c86ad.chunk.js": "/react-deploy.git/static/js/2.f70c86ad.chunk.js",
+    "static/js/2.f70c86ad.chunk.js.map": "/react-deploy.git/static/js/2.f70c86ad.chunk.js.map",
+    "index.html": "/react-deploy.git/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/react-deploy.git/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.f70c86ad.chunk.js.LICENSE.txt": "/react-deploy.git/static/js/2.f70c86ad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aba111dd.js",
+    "static/js/2.f70c86ad.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.68156ff6.chunk.js"
+  ]
+}
