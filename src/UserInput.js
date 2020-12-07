@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import data from './data';
 import TableData from './TableData';
 
 function UserInput() {
@@ -6,7 +7,7 @@ function UserInput() {
     const [movieName , setMovieName] = useState('');
     const [rating , setRating] = useState('');
     const [duration , setDuration] = useState('');
-    const [movies , setMovies] = useState([]);
+    const [movies , setMovies] = useState(data);
     const [userSearch , setUserSearch] = useState('');
 
     const handleSubmit = () => {
@@ -22,6 +23,7 @@ function UserInput() {
                 }
             ])
         }else{
+
             setMovies([
                 ...movies,
                 {
