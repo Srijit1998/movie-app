@@ -65,47 +65,41 @@ function UserInput() {
                     </setUserSearchContext.Provider>
                 </userSearchContext.Provider>
             </handleSearchContext.Provider>
-            {/* <form onSubmit={handleSubmit}>
-                <h2>Movie Name</h2>
-                <input 
-                    type="text"
-                    onChange={(e) => setMovieName(e.target.value)}
-                    value={movieName}
-                />
-                <h2>Rating</h2>
-                <input 
-                    type="text"
-                    onChange={(e) => setRating(e.target.value)}
-                    value={rating}
-                />
-                <h2>Duration</h2>
-                <input 
-                    type="text"
-                    onChange={(e) => setDuration(e.target.value)}
-                    value={duration}
-                />
-                <br></br>
-                <button type="submit">Submit</button>
-            </form> */}
+
             <Row>
                 <Col md={9}>
                     <Form onSubmit={handleSubmit}>
                         <Form.Group>
                             <Form.Label><h4>Movie Name</h4></Form.Label>
-                            <Form.Control type="text" placeholder="Enter movie name" />
+                            <Form.Control 
+                                type="text" 
+                                placeholder="Enter movie name" 
+                                onChange={(e) => setMovieName(e.target.value)}
+                                value={movieName}
+                            />
                         </Form.Group>
 
                         <Form.Group>
                             <Form.Label><h4>Rating</h4></Form.Label>
-                            <Form.Control type="text" placeholder="Enter rating" />
+                            <Form.Control 
+                                type="text" 
+                                placeholder="Enter rating" 
+                                onChange={(e) => setRating(e.target.value)}
+                                value={rating}
+                            />
                         </Form.Group>
 
                         <Form.Group>
                             <Form.Label><h4>Duration</h4></Form.Label>
-                            <Form.Control type="text" placeholder="Enter duration" />
+                            <Form.Control 
+                                type="text" 
+                                placeholder="Enter duration" 
+                                onChange={(e) => setDuration(e.target.value)}
+                                value={duration}
+                            />
                         </Form.Group>
 
-                        <Button variant="dark" type="submit">
+                        <Button type="submit" variant="dark">
                             Submit
                         </Button>
                     </Form>
@@ -115,14 +109,6 @@ function UserInput() {
                             rounded fluid />
                 </Col>
             </Row>
-            {/* <form onSubmit={handleSearchSubmit}>
-                <h2>Search</h2>
-                <input 
-                    type="text"
-                    onChange={(e) => setUserSearch(e.target.value)}
-                    value={userSearch}
-                />
-            </form> */}
             <br></br>
             <br></br>
             <TableData 
