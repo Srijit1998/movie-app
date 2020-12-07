@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import data from './data';
+import data from './fakeAPI';
 import TableData from './TableData';
 
 function UserInput() {
